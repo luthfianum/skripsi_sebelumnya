@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.3",
+    "fcm-push-notif": "^1.2.1",
+    "md5": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.7",
+    "sequelize": "^7.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
